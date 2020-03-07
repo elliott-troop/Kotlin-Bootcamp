@@ -1,4 +1,4 @@
-package Lesson3
+package lesson3
 /**
  * Udacity - Kotlin Bootcamp for Programmers
  * Lesson 3: Functions
