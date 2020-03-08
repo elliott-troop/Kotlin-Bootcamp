@@ -6,7 +6,8 @@ package lesson3
  */
 
 fun main(args: Array<String>) {
-    for (i in 0 until 10) {
+    val counter = 0
+    while(counter < 10) {
         val returnedFortune = getFortuneCookie()
         println("Your fortune is $returnedFortune")
 
