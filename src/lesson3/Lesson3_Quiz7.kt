@@ -1,5 +1,11 @@
 package lesson3
 
+/**
+ * Udacity - Kotlin Bootcamp for Programmers
+ * Lesson 3: Functions
+ * Quiz 7
+ */
+
 fun main(args: Array<String>) {
 
     val spices = listOf("curry", "pepper", "cayenne", "ginger", "red curry", "green curry", "red pepper" )
