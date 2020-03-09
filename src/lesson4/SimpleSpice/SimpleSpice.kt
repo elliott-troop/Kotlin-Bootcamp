@@ -1,9 +1,16 @@
 package lesson4.SimpleSpice
 
+/**
+ * Udacity - Kotlin Bootcamp for Programmers
+ * Lesson 4: Classes
+ * Quiz: 1
+ */
+
 class SimpleSpice {
     val name: String = "curry"
     val spiciness: String = "mild"
 
+    // getter that returns a numeric value for each type of spiciness
     val heat: Int
         get() = when(spiciness) {
             "medium" -> 1
