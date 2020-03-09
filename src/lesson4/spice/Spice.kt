@@ -1,4 +1,4 @@
-package lesson4.SimpleSpice
+package lesson4.spice
 
 /**
  * Udacity - Kotlin Bootcamp for Programmers
