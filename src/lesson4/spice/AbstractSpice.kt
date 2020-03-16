@@ -50,12 +50,22 @@ interface Grinder {
  * Interface with property
  */
 interface SpiceColor {
-    val color: String
+    val color: Color
 }
 
 /**
  * Singleton object that implements SpiceColor
  */
 object YellowSpiceColor: SpiceColor {
-    override val color = "yellow"
+    override val color = Color.YELLOW
+}
+
+/**
+ * Enum class for colors
+ */
+enum class Color(val rgb: Int) {
+    RED(0xFF0000),
+    GREEN(0x00FF00),
+    BLUE(0x0000FF),
+    YELLOW(0xFFFF00)
 }
